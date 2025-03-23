@@ -26,7 +26,7 @@ const Footer = () => {
     },
   ];
   return (
-    <div className="flex px-24 pt-14 pb-[87px] pr-[348px] justify-between items-center">
+    <div className="flex px-12 lg:px-24 pt-14 pb-[87px] xl:pr-[348px] justify-between items-center flex-wrap gap-4">
       <h2 className="font-semibold text-sm">
         Israa Elshebli - Skincare Backed by Science.
       </h2>
