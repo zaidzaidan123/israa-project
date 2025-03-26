@@ -36,7 +36,7 @@ const ApplicationSection = () => {
         </div>
         <div className="flex gap-8 mt-10 justify-center items-center sm:items-start flex-col sm:flex-row">
         {Array.from({ length: 2 }, (_, i) => (
-        <Image src={phone} alt="phone"/>
+        <Image src={phone} alt="phone" key={i}/>
       ))}
         </div>
       </div>
