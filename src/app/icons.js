@@ -8,6 +8,8 @@ import AppStore from "../../public/icons/appstore.svg";
 import LightBulb from "../../public/icons/Lightbulb.svg";
 import ArrowUpRightPurble from "../../public/icons/ArrowUpRightPurble.svg";
 import ArrowUpRightWhite from "../../public/icons/ArrowUpRightWhite.svg";
+import Lock from "../../public/icons/Lock.svg";
+import BurgerMenu from "../../public/icons/burgerMenu.svg";
 
 export {
   Be,
@@ -20,4 +22,6 @@ export {
   LightBulb,
   ArrowUpRightWhite,
   ArrowUpRightPurble,
+  Lock,
+  BurgerMenu,
 };
