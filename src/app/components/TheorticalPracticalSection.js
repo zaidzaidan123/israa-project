@@ -9,8 +9,6 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
-import "./styles.css";
-
 // import required modules
 import { FreeMode, Pagination } from "swiper/modules";
 import CourseCard from "./cards/CourseCard";
@@ -63,7 +61,7 @@ const TheorticalPracticalSection = () => {
     },
   ];
   return (
-    <div className="px-12 xl:px-52 mb-24 xl:mb-60">
+    <div className="theo-pract px-12 xl:px-52 mb-24 xl:mb-60">
       <div className="flex flex-col justify-center items-center gap-4">
         <h2 className="font-semibold text-3xl text-center leading-10">
           Skincare by <span className="text-[#9E0159]">Israa Elshebli</span>
