@@ -131,7 +131,7 @@ body {
 
 /* Custom icon - for example, using emoji or background SVGs */
 .member-slider .swiper-button-next {
-  background-image: url('/public/icons/nextarrow.svg'); /* Your custom icon */
+  background-image: url('/icons/nextArrow.svg'); /* Your custom icon */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -142,7 +142,7 @@ body {
 }
 
 .member-slider .swiper-button-prev {
-  background-image: url('/public/icons/nextarrow.svg');
+  background-image: url('/icons/nextArrow.svg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
