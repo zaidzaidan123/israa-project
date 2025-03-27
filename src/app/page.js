@@ -15,7 +15,7 @@ export default function Home() {
       <HeroSection />
       <ConsultationsTypes />
       <TheorticalPracticalSection />
-      {/* <SkinCareClub /> */}
+      <SkinCareClub />
       <ApplicationSection />
       <WhyChooseGen />
       <GetInTouch />

@@ -42,7 +42,6 @@ body {
   justify-content: center !important;
   align-items: center !important;
   margin-right: 0 !important;
-  
 }
 
 .swiper-wrapper {
@@ -67,7 +66,7 @@ body {
   font-size: 30px !important;
 }
 
- .theo-pract .swiper-slide.swiper-slide-next .selected-hr {
+.theo-pract .swiper-slide.swiper-slide-next .selected-hr {
   margin-bottom: 18px !important;
 }
 
@@ -100,8 +99,64 @@ body {
   position: absolute !important;
   margin-top: 0 !important;
   margin-bottom: 50px !important;
-
 }
+
+.member-slider .swiper-slide {
+  background: transparent !important  ;
+}
+
+.member-slider .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: calc((100% - 30px) / 2) !important;
+
+  /* Center slide text vertically */
+  display: flex !important;
+  justify-content: end !important;
+  align-items: start !important;
+  margin-right: 0 !important;
+}
+
+.member-slider .swiper-button-next,
+.member-slider .swiper-button-prev {
+  top: 250px;
+}
+
+/* Hide default arrows */
+.member-slider .swiper-button-next::after,
+.member-slider .swiper-button-prev::after {
+  display: none;
+}
+
+/* Custom icon - for example, using emoji or background SVGs */
+.member-slider .swiper-button-next {
+  background-image: url('/icons/nextarrow.svg'); /* Your custom icon */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60px;
+  height: 60px;
+  top:230px;
+  right:-5;
+}
+
+.member-slider .swiper-button-prev {
+  background-image: url('/icons/nextarrow.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60px;
+  height: 60px;
+  transform: scaleX(-1);
+  top:230px;
+  left:-5;
+}
+
+.member-slider .swiper-button-disabled{
+display: none;
+}
+
 
 @media (min-width: 1200px) {
   .hero-section .swiper-slide.swiper-slide-next > div {
@@ -147,5 +202,19 @@ body {
   .hero-section .swiper-wrapper {
     margin-left: 0px !important;
   }
+}
 
+@media (max-width: 767px) {
+  .member-slider .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc((100% - 30px) / 2) !important;
+
+    /* Center slide text vertically */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-right: 0 !important;
+  }
 }

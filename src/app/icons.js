@@ -10,6 +10,8 @@ import ArrowUpRightPurble from "../../public/icons/ArrowUpRightPurble.svg";
 import ArrowUpRightWhite from "../../public/icons/ArrowUpRightWhite.svg";
 import Lock from "../../public/icons/Lock.svg";
 import BurgerMenu from "../../public/icons/burgerMenu.svg";
+import Ellipse1 from "../../public/icons/ellipse1.svg";
+import Ellipse2 from "../../public/icons/ellipse2.svg";
 
 export {
   Be,
@@ -24,4 +26,6 @@ export {
   ArrowUpRightPurble,
   Lock,
   BurgerMenu,
+  Ellipse1,
+  Ellipse2,
 };
